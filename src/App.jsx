@@ -13,7 +13,7 @@ import OrderSuccess from "./pages/OrderSuccess";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/nova-store">
       <Navbar />
 
       <main>
