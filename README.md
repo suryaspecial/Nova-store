@@ -1,16 +1,115 @@
-# React + Vite
+# NOVA. — E-Commerce Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Everyday products. Better shopping.**
 
-Currently, two official plugins are available:
+NOVA is a modern, responsive e-commerce storefront built with React and Vite. This self-initiated portfolio project focuses on creating a clean shopping experience with dynamic product data, intuitive discovery tools, cart management, and a multi-step checkout interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+**[Visit NOVA Store](https://suryaspecial.github.io/nova-store/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- **Dynamic Product Listing** — Fetches product data from the DummyJSON API.
+- **Live Search** — Search products with debouncing for a smoother experience.
+- **Product Filtering** — Filter products by category, price, and rating.
+- **Sorting Options** — Organize products using available sorting options.
+- **Product Details** — View individual product information and image galleries.
+- **Shopping Cart** — Add products, update quantities, and manage cart items.
+- **Persistent Cart** — Preserve cart data using browser localStorage.
+- **Multi-Step Checkout** — A structured checkout user interface.
+- **Order Success Page** — Display order confirmation after checkout.
+- **Responsive Design** — Adapted for desktop, tablet, and mobile screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript
+- React Router
+- Context API
+- CSS
+- DummyJSON Products API
+- React Icons
+- Browser localStorage
+
+## 📸 Screenshots
+
+Add screenshots of your homepage, product listing, product details, and cart here to showcase the interface.
+
+## ⚙️ Run Locally
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/suryaspecial/nova-store.git
+   ```
+
+2. Navigate into the project:
+
+   ```bash
+   cd nova-store
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+### Production Build
+
+To create a production build, run:
+
+```bash
+npm run build
+```
+
+The generated production files will be available in the `dist` directory.
+
+## 🌐 Deployment
+
+NOVA is deployed using GitHub Pages and a GitHub Actions workflow that builds the Vite project and publishes the production output.
+
+## 📚 What I Learned
+
+- Building reusable React components.
+- Managing shared state with Context API.
+- Fetching and displaying API data.
+- Implementing search, filtering, and sorting.
+- Managing cart persistence with localStorage.
+- Working with React Router.
+- Building and deploying a Vite application using GitHub Actions.
+
+## 🔮 Future Improvements
+
+- User authentication.
+- Payment gateway integration.
+- Backend-powered orders and user accounts.
+- Automated testing and accessibility improvements.
+
+## 👨‍💻 Author
+
+**Surya R Nath**
+
+- GitHub: [@suryaspecial](https://github.com/suryaspecial)
+- Portfolio: [View my portfolio](https://suryaspecial.github.io/Portfolio/)
+
+---
+
+*Built as a self-initiated front-end development portfolio project.*
