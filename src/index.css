@@ -687,7 +687,7 @@ main {
   margin: 0 20px 80px;
   padding: 100px 20px;
   border-radius: 14px;
-  background: url('images/final.jpg') no-repeat center center;
+  background: url('/nova-store/images/final.jpg') no-repeat center center;
   background-size: cover;
   color: var(--color-white);
 }
